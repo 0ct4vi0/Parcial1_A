@@ -41,10 +41,8 @@ public class ParcialJava {
             continuar = deseaContinuar(sc);
 
         } while (continuar);
-
         System.out.println("Programa finalizado.");
     }
-
     // Paso 1: Solicitar dimensión de la matriz
     public static int solicitarDimension(Scanner sc) {
         int dimension;
